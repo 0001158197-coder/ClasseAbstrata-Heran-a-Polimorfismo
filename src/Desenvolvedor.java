@@ -19,7 +19,7 @@ public class Desenvolvedor extends Funcionario {
 
     @Override
     public double calcularSalario() {
-        return getSalarioBase() + (quantidadeProjetos * 500);
+        return getSalarioBase() + (quantidadeProjetos * 600);
     }
 }
 
